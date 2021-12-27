@@ -4,8 +4,6 @@
 
 ### My Contacts
 
----
-
 _Email: matvey.duboleko@yandex.ru_
 _Tel: +375-44-715-11-03_
 _City: Minsk, Belarus_
