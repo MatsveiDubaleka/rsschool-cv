@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff5ee;
+    background-color: rgba(0, 255, 0, 0.25);
     width: 100%;
     height: 1000px;
   }
@@ -9,7 +9,8 @@ body {
   .resume {
     width: 900px;
     height: 1000px;
-    border: 8px solid wheat;
+    border: 10px solid wheat;
+    border-radius: 3%;
     background-color: white;
     margin: auto;
     display: flex;
@@ -90,6 +91,7 @@ body {
     padding: 0 30px;
     background-color: #5f9ea0;
     font-weight: 200;
+    border-bottom-left-radius: 3.5%;
     color: whitesmoke;
     font-size: 13px;
   }
