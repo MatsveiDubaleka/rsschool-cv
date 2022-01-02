@@ -1,16 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
-  background-color:cadetblue;
+  background-color:aliceblue;
+  font-family: 'Roboto', sans-serif;
 }
 
 header, footer {
   width: 100%;
-  background-color:skyblue;
+  background-color:#829985;
   color: seashell;
 
 }
@@ -67,7 +67,7 @@ section {
 .main__info {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 
@@ -89,8 +89,11 @@ section {
 }
 
 .info__headings {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 3%;
 }
 
 .info__headings > h1 {
@@ -104,7 +107,7 @@ section {
 
 .info__headings > h2 {
   font-size: 18px;
-  font-weight: lighter;
+  font-weight: 200;
 }
 
 .info__motivation {
