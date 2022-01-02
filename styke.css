@@ -1,276 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 body {
-    margin: 1.5% 0;
-    padding: 0;
-    background-color: rgba(0, 255, 0, 0.25);
-    width: 100%;
-    height: 1000px;
-  }
-  
-  .resume {
-    width: 900px;
-    height: 1000px;
-    border: 10px solid wheat;
-    border-radius: 3%;
-    background-color: white;
-    margin: auto;
-    display: flex;
-    box-shadow: -10px 0px 100px rgba(0, 0, 0, 0.4 );
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .f {
-    display: flex;
-  }
-  
-  .f-col {
-    flex-direction: column;
-  }
-  
-  header {
-    width: 300px;
-    height: 300px;
-    margin: 30px 0px 30px 60px;
-    line-height: 20px;
-  }
-  
-  .me {
-    color: rgba(0, 0, 0, 0.7);
-  
-    font-size: 30px;
-    font-weight: 200;
-    line-height: 30px;
-  }
-  
-  .surname {
-    font-weight: 800;
-  }
-  
-  .text-aboutme {
-    font-weight: 100;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: lighter;
-  }
-  
-  .myself {
-    border: 2px solid pink;
-    background: url("./img/Ja514AZsamY.jpg") 50% 50%;
-    border-radius: 50% 50%;
-    opacity: 0.9;
-    background-size: cover;
-    width: 150px;
-    height: 150px;
-  }
-  
-  main {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    margin: 40px 20px 40px 0;
-  }
-  
-  .logo {
-    width: 10px;
-    height: 10px;
-  }
-  
-  main .logo-1 {
-    padding: 7px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50% 50%;
-    background-size: cover;
-  }
-  
-  .sidebar {
-    width: 60%;
-    height: 100%;
-    padding: 0 30px;
-    background-color: #5f9ea0;
-    font-weight: 200;
-    border-bottom-left-radius: 3.5%;
-    color: whitesmoke;
-    font-size: 13px;
-  }
-  
-  .side-info_img img {
-    width: 25px;
-  }
-  
-  .side-info_img {
-    width: 25px;
-    margin-right: 7px;
-  }
-  
-  .side-info_block {
-    position: relative;
-    padding-top: 35px;
-    margin-top: 15px;
-  }
-  
-  .side-info_title {
-    padding: 5px 15%;
-    background: white;
-    border: 2px solid darkslategray;
-    transform: translate(-50%, -50%);
-  
-    color: black;
-    text-transform: uppercase;
-    position: absolute;
-    font-size: 15px;
-  }
-  
-  .contacts {
-    top: -15px;
-    left: 50%;
-  }
-  
-  .follow {
-    padding: 5px 18%;
-    top: 3%;
-    left: 50%;
-  }
-  
-  .languages {
-    padding: 5px 14%;
-    top: 10%;
-    left: 50%;
-  }
-  
-  .hobby {
-    top: 10%;
-    left: 50%;
-  }
-  
-  .side-info_follow {
-    margin-top: 80px;
-  }
-  
-  .side-info_languages {
-    margin-top: 50px;
-  }
-  
-  .side-info_hobby {
-    margin-top: 100px;
-  }
-  
-  .side_language {
-    margin-top: 5px;
-  }
-  
-  .side_language.russian {
-    margin-right: 36px;
-  }
-  
-  .side_language.english {
-    margin-right: 41px;
-  }
-  
-  .side_language.belarussian {
-    margin-right: 11px;
-  }
-  
-  .side_language.ukranian {
-    margin-right: 28px;
-  }
-  
-  .side_links a {
-    text-decoration: none;
-    color: White;
-  }
-  
-  .black-circle {
-    background: black;
-    opacity: 0.8;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    margin-top: 9px;
-    margin-left: 5px;
-  }
-  
-  .white-circle {
-    background: white;
-    opacity: 0.9;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    margin-top: 9px;
-    margin-left: 5px;
-  }
-  
-  main {
-    width: auto;
-    background: white;
-    padding: 0px 10px;
-  }
-  
-  p {
-    font-size: 13px;
-    font-weight: 200;
-  }
-  
-  .about-me_img, .code_img {
-    position: relative;
-    margin-right: 10px;
-    width: 30px;
-    height: 30px;
-    background: wheat;
-    border-radius: 50%;
-    padding: 7px;
-  }
+  background-color:cadetblue;
+}
 
-  .code_img {
-    height: 28px;
-  }
-  
-  .side-info_item {
-    align-items: center;
-    margin-top: 5px;
-  }
-  
-  .about-me_img img {
-    width: 100%;
-  }
-  
-  .code_img img {
-    width: 100%;
-    align-items: center ;
-  }
+header, footer {
+  width: 100%;
+  background-color:skyblue;
+  color: seashell;
 
-  .about-me,
-  .education {
-    text-align: start;
-  }
-  
-  main h2 {
-    font-size: 20px;
-    border-bottom: 2px solid #000;
-    width: 100%;
-  }
-  
-  .about-me_title, .code_title {
-    align-items: center;
-  }
-  
-  .side {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .education_title {
-    font-size: 18px;
-    font-weight: 400;
-    margin: 5px;
-  }
-  
-  .years {
-    text-align: end;
-    font-style: italic;
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-  }
+}
 
-  
+.header__container {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.header__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  list-style: none;
+}
+
+.header__list > li > a {
+  text-decoration: none;
+  color: #f2f2f2;
+
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.head-title {
+  margin: 2.5% 0;
+  width: 100%;
+  border-bottom: 2px solid #000;
+}
+
+.head-title > h2 {
+  font-size: 30px;
+}
+
+.main__container-first, .main__container-second {
+  width: 50%;
+  margin: 0.5% 0;
+}
+
+/* .main__container-second {
+  border-left: 5px solid gray;
+} */
+
+section {
+  margin:0 5%;
+}
+
+.main__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.main__info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info__img {
+  margin-right: 10px;
+}
+
+.info__img img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.info__headings {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.info__headings > h1 {
+  font-size: 30px;
+}
+
+.info__surname {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.info__headings > h2 {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.info__motivation {
+  margin-left: 3%;
+}
+
+ul > li {
+  color: black;
+  list-style: none;
+}
+
+li > a {
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.skills-list {
+  list-style: circle;
+}
+
+.main__skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills__programming, .skills__languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skills__programming > ul, .skills__languages > ul {
+  text-align: right;
+  font-size: 20px;
+}
+
+.main__works-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main__works-container > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education-years, .education-title {
+  margin: 1% 0;
+}
+
+.education-years {
+  text-align: right;
+}
+
+footer {
+  color: seashell;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1% 5% 0;
+  padding: 1% 0;
+}
+
+.footer-github > a{
+  color: snow;
+  text-decoration: none;
+}
+
+.footer-rsschool > a > img {
+  width: 100px;
+  height: 50px;
+}
