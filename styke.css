@@ -125,10 +125,6 @@ li > a {
   text-decoration: none;
 }
 
-.skills-list {
-  list-style: circle;
-}
-
 .main__skills-container {
   display: flex;
   flex-direction: column;
@@ -138,12 +134,16 @@ li > a {
 .skills__programming, .skills__languages {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  list-style: none;
 }
 
-.skills__programming > ul, .skills__languages > ul {
-  text-align: right;
-  font-size: 20px;
+.list {
+  display: flex;
+  flex-direction: row;
+}
+
+.list > li {
+  margin-right: 5px;
 }
 
 .main__works-container {
