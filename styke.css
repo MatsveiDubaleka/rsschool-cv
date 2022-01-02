@@ -15,6 +15,10 @@ header, footer {
 
 }
 
+p {
+  line-height: 25px;
+}
+
 .header__container {
   width: 100%;
   padding: 20px 0;
@@ -114,6 +118,10 @@ section {
   margin-left: 3%;
 }
 
+.info__motivation > p {
+  line-height: 25px;
+}
+
 ul > li {
   color: black;
   list-style: none;
@@ -121,8 +129,26 @@ ul > li {
 
 li > a {
   color: #000;
-  font-size: 20px;
   text-decoration: none;
+}
+
+.contacts-list > li {
+  display: flex;
+  align-items: center;
+  gap: 1%;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.contacts-list > li > a {
+  /* font-style: italic; */
+  color: #829985;
+  font-weight: 200;
+}
+
+.contacts-list > li > img {
+  width: 25px;
+  height: 25px;
 }
 
 .main__skills-container {
@@ -131,10 +157,17 @@ li > a {
   gap: 20px;
 }
 
-.skills__programming, .skills__languages {
+.skills {
   display: flex;
+  align-items: center;
   flex-direction: row;
   list-style: none;
+}
+
+.skills img {
+  width: 20px;
+  height: 20px;
+  margin-right: 1%;
 }
 
 .list {
@@ -144,6 +177,10 @@ li > a {
 
 .list > li {
   margin-right: 5px;
+}
+
+.main__works {
+  margin-top: -5.2%;
 }
 
 .main__works-container {
@@ -158,13 +195,31 @@ li > a {
   gap: 20px;
 }
 
+.main__education {
+  margin-top: 2.5%;
+}
+
+.main__education-container h4 {
+  margin-top: 3%;
+  font-size: 18px;
+  font-weight: 100;
+}
+
 .education-years, .education-title {
   margin: 1% 0;
 }
 
 .education-years {
+  font-style: italic;
   text-align: right;
 }
+
+.pre {
+  margin-left: -250px;
+  padding: 0;
+  font-size: 17px;
+}
+
 
 footer {
   color: seashell;
