@@ -220,6 +220,10 @@ li > a {
   font-size: 17px;
 }
 
+.main__code-container {
+  margin-bottom: 50px;
+}
+
 
 footer {
   color: seashell;
