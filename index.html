@@ -130,22 +130,20 @@
                     </div>
                 </div>
                 <div class="main__code-container container">
-                    <pre class="pre">
-                        <code>
-                            const item = document.querySelector(".item");
-                            const placeholders = document.querySelectorAll(".placeholder");
-                            
-                            item.addEventListener("dragstart", dragstart);
-                            item.addEventListener("dragend", dragend);
-                            
-                            for (const placeholder of placeholders) {
-                              placeholder.addEventListener("dragover", dragover);
-                              placeholder.addEventListener("dragenter", dragenter);
-                              placeholder.addEventListener("dragleave", dragleave);
-                              placeholder.addEventListener("drop", dragdrop);
-                            }
-                        </code>
-                    </pre>
+                    <code>
+                        const item = document.querySelector(".item"); <br>
+                        const placeholders = document.querySelectorAll(".placeholder");<br>
+                        <br> 
+                        item.addEventListener("dragstart", dragstart); <br>
+                        item.addEventListener("dragend", dragend);  <br>
+                        <br>
+                        for (const placeholder of placeholders) { <br>
+                            placeholder.addEventListener("dragover", dragover); <br>
+                            placeholder.addEventListener("dragenter", dragenter); <br>
+                            placeholder.addEventListener("dragleave", dragleave); <br>
+                            placeholder.addEventListener("drop", dragdrop); <br>
+                        }
+                    </code>
                 </div>
             </section>
             <section class="main__works works">
